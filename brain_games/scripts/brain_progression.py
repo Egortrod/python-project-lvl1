@@ -28,7 +28,7 @@ def progression_game():
         replaced_index = randint(0, 9)
         replaced_number = result[replaced_index]
         result[replaced_index] = '..'
-        print('Question: ', ' '.join([str(x) for x in result]))
+        print('Question:', ' '.join([str(x) for x in result]))
         user_input = int(input('Your answer: '))
         if replaced_number == user_input:
             print('Correct!')
