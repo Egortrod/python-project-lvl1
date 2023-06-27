@@ -1,14 +1,11 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "1.0.0"
+version = "0.1.0"
 description = "simple brainshtorm mini-games"
 authors = ["egortrod <egor.arkhipoff@yandex.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
-]
-classifiers = [
-  "Programming Language :: Python :: 3.10"
 ]
 repository = "https://github.com/Egortrod/python-project-lvl1"
 
