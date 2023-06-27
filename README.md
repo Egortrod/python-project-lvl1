@@ -11,11 +11,11 @@ The Brain Games project consists of 5 mini-games that run from the console. Each
 4. brain-progression (gives a random arefmitic progression, you have to identify the missing digit)
 5. brain_gcd (gives two random numbers, you have to determine the greatest common divisor)
 
-### Installation:
+<!-- ### Installation:
 ```
 git clone https://github.com/Egortrod/python-project-lvl1.git
 make package-install
-```
+``` -->
 
 ### Asciinema of all features:
 https://asciinema.org/a/p0cfV9B3n3xvsXY9QP8A39gzV
