@@ -24,7 +24,7 @@ def progression_game():
         diff = randint(2, 5)
         result = []
         for idx in range(10):
-            result.append(first_number+idx*diff)
+            result.append(first_number + idx * diff)
         replaced_index = randint(0, 9)
         replaced_number = result[replaced_index]
         result[replaced_index] = '..'
