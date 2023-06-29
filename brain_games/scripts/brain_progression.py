@@ -37,7 +37,7 @@ def progression_game():
             print(f"'{user_input}' is wrong answer ;(. "
                   f"Correct answer was '{replaced_number}'."
                   f"\nLet's try again, {name}!")
-            return
+            break
     if correct_answers == 3:
         print(f'Congratulations, {name}!')
 

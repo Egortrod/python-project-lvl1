@@ -36,7 +36,7 @@ def calc():
                     print(f"'{user_input}' is wrong answer ;(. "
                           f"Correct answer was '{correct_answer}'."
                           f"\nLet's try again, {name}!")
-                    return
+                    break
             case '-':
                 correct_answer = first_number - second_number
                 if correct_answer == user_input:
@@ -46,7 +46,7 @@ def calc():
                     print(f"'{user_input}' is wrong answer ;(. "
                           f"Correct answer was '{correct_answer}'."
                           f"\nLet's try again, {name}!")
-                    return
+                    break
             case '+':
                 correct_answer = second_number + first_number
                 if correct_answer == user_input:
@@ -56,7 +56,7 @@ def calc():
                     print(f"'{user_input}' is wrong answer ;(. "
                           f"Correct answer was '{correct_answer}'."
                           f"\nLet's try again, {name}!")
-                    return
+                    break
     if correct_answers == 3:
         print(f'Congratulations, {name}!')
 
