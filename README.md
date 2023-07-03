@@ -14,6 +14,8 @@ The Brain Games project consists of 5 mini-games that run from the console. Each
 ### Installation:
 ```
 git clone https://github.com/Egortrod/python-project-lvl1.git
+cd python-project-lvl1
+make install
 make package-install
 ```
 
